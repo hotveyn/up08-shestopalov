@@ -8,4 +8,48 @@
 }
 body{
 	background-color: rgba(98, 20, 2, 1);
+	background-image: url("../img/bg.png") ;
+	background-repeat: no-repeat;
+	background-size: 100%; ;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+img{
+	cursor: pointer;
+}
+.conteiner{
+	padding-top: 50px;
+	max-width: 1440px;
+	margin: auto;
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav__adresses{
+	display: flex;
+	align-items: center;
+}
+.nav__adresses ul{
+	margin-left: 60px;
+	display: flex;
+	align-items: center;
+}
+.nav__adresses ul li{
+	font-size: 14px;
+}
+.nav__adresses ul li:not(:last-child){
+	margin-right: 25px;
+}
+.nav__profile{
+	display: flex;
+	align-items: center;
+}
+.nav__profile p{
+	margin-right: 15px;
 }

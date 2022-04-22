@@ -174,3 +174,33 @@ main{
     margin-bottom: 5px;
     font-weight: bold;
 }
+.services__sections{
+    font-size: 14px;
+}
+.footer{
+    margin-left:30px;
+    margin-top:37px;
+
+}
+.footer__grey-line{
+    display: block;
+    border-top: 2px rgba(229, 229, 229, 1) solid;
+    width: 261px;
+}
+.footer__grey-text{
+    font-size: 14px;
+    margin-top: 18px;
+    color: rgba(229, 229, 229, 1);
+}
+.a-grey{
+    text-decoration: underline;
+}
+
+.little-text_first{
+    margin-top: 16px;
+}
+.little-text{
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}

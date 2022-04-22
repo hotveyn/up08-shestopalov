@@ -88,6 +88,7 @@ h1{
 }
 .search__right{
     margin-left: 20px;
+    cursor: pointer;
 }
 .search__text a{
     margin-left: 6px;

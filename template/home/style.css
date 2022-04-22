@@ -66,3 +66,31 @@ h1{
     color: white;
     margin-left: 25px;
 }
+.search{
+    margin-top: 24px;
+}
+.search__main{
+    border-radius: 5px;
+    max-height: 50px;
+    background-color: rgba(37, 110, 235, 1);
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search__main input{
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+    size: 14px;
+    padding: 14px 0 14px 21.45px;
+}
+.search__right{
+    margin-left: 20px;
+}
+.search__text{
+    margin-left: 6px;
+    margin-right: 20px;
+    color: white;
+    font-size: 16px;
+}

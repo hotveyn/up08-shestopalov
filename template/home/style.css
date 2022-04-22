@@ -88,9 +88,50 @@ h1{
 .search__right{
     margin-left: 20px;
 }
-.search__text{
+.search__text a{
     margin-left: 6px;
     margin-right: 20px;
     color: white;
     font-size: 16px;
+}
+.header{
+    margin-bottom: 42px;
+}
+.recomend h2{
+    margin-bottom: 25px;
+}
+.card{
+    max-width: 264px;
+}
+.card > img{
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+.info__name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.info__name a{
+    color:rgba(37, 110, 235, 1);
+}
+.heart-img{
+    cursor: pointer;
+}
+.info__price{
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.info__place-time{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #C4C4C4;
 }

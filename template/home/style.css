@@ -110,7 +110,7 @@ h1{
 .info__name{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     font-size: 16px;
     font-weight: bold;
 }
@@ -134,4 +134,20 @@ h1{
     font-size: 14px;
     line-height: 16px;
     color: #C4C4C4;
+}
+
+.recomend{
+    max-width: 852px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-marg{
+    margin-right: 30px;
+}
+
+.card{
+    margin-top: 20px;
 }

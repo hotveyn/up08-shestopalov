@@ -161,5 +161,25 @@ h1{
 }
 
 .seller{
-    max-width: 264px;
+    width: 264px;
+}
+
+.seller__but{
+    border-radius: 5px;
+    border: 0;
+    width: 264px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size: 15px;
+}
+.but-tel{
+    background-color: rgba(37, 110, 235, 1);
+    margin-top: 30px;
+}
+.but-mes{
+    margin-top: 14px;
+    background-color: rgba(20, 180, 190, 1);
 }

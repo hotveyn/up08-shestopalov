@@ -174,6 +174,7 @@ h1{
     justify-content: center;
     color:white;
     font-size: 15px;
+    cursor: pointer;
 }
 .but-tel{
     background-color: rgba(37, 110, 235, 1);
@@ -182,4 +183,34 @@ h1{
 .but-mes{
     margin-top: 14px;
     background-color: rgba(20, 180, 190, 1);
+}
+.add{
+    margin-left: 128px;
+}
+
+.footer{
+    margin-top:37px;
+
+}
+.footer__grey-line{
+    display: block;
+    border-top: 2px rgba(229, 229, 229, 1) solid;
+    width: 261px;
+}
+.footer__grey-text{
+    font-size: 14px;
+    margin-top: 18px;
+    color: rgba(229, 229, 229, 1);
+}
+.a-grey{
+    text-decoration: underline;
+}
+
+.little-text_first{
+    margin-top: 16px;
+}
+.little-text{
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 5px;
 }

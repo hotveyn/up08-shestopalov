@@ -221,10 +221,20 @@ h1{
     font-weight: 400;
     margin-bottom: 5px;
 }
+.menu-slider{
+    display: none;
+}
 
 @media screen and (max-width:320px) {
     .conteiner{
         width: 270px;
+    }
+    .search__text a{
+        display: none;
+    }
+    .search__right{
+        margin-left: 11px;
+        margin-right: 9px;
     }
     .header-nav_left ul{
         display: none;
@@ -235,35 +245,36 @@ h1{
     .menu-slider{
         display: block;
     }
-    .info__name{
-        margin-top: 12px;
+    .samokat-img{
+        width: 269px;
     }
-    .search__text a{
+    .imgs-samokat a:nth-child(4){
         display: none;
     }
-    .search__right{
-        margin-left: 11px;
-        margin-right: 9px;
-    }
-    .recomend h2{
-        font-size: 18px;
-    }
-    .card:nth-child(4),
-    .card:nth-child(5),
-    .card:nth-child(6){
-        display: none;
+    .imgs-samokat a img{
+        width: 62px;
     }
     main{
-        display: flex;
-        justify-content: center;
         flex-direction: column;
     }
-    .services{
-        margin-top: 50px;
+    .add{
         margin-left: 0;
     }
-    .footer{
-        margin-top: 37px;
+    .seller{
         margin-left: 0;
+    }
+    .samokat h2{
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+    .samokat__info{
+        margin-bottom: 46px;
+    }
+    .seller__person{
+        margin-top: 14px;
+    }
+    .add{
+        margin-top: 46px;
+        margin-bottom: 46px;
     }
 }

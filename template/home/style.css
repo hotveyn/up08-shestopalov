@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.conteiner{
+    max-width: 1146px;
+    margin: auto;
+    margin-top: 30px;
+}
+a{
+    text-decoration: none;
+    color: black
+}
+li{
+    list-style: none;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nav_left{
+    display: flex;
+    align-items: center;
+}
+.header-nav_left li a{
+    font-size: 14px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-right: 20px;
+}
+.logo img{
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+h1{
+    font-size: 24px;
+}
+
+.header-nav_left ul{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.header-nav_left ul li:not(:last-child){
+    margin-right: 14px;
+}
+
+.header-nav_right{
+    display: flex;
+    align-items:center;
+}
+.header-nav_right *{
+    cursor: pointer;
+}
+
+.header-nav__advert{
+    padding: 10px 15px;
+    background-color: rgba(37, 110, 235, 1);
+    border-radius: 5px;
+    color: white;
+    margin-left: 25px;
+    width: 131px;
+    font-size: 14px;
+}
+.header-nav__enter{
+    font-size: 14px;
+}
+.search{
+    margin-top: 24px;
+}
+.search__main{
+    border-radius: 5px;
+    max-height: 50px;
+    background-color: rgba(37, 110, 235, 1);
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search__main input{
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+    size: 14px;
+    padding: 14px 0 14px 21.45px;
+}
+.search__right{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.search__text a{
+    margin-left: 6px;
+    margin-right: 20px;
+    color: white;
+    font-size: 16px;
+}
+.header{
+    margin-bottom: 42px;
+}
+.recomend h2{
+    margin-bottom: 25px;
+}
+.card{
+    max-width: 264px;
+}
+.card > img{
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+.info__name{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 16px;
+    font-weight: bold;
+}
+.info__name a{
+    color:rgba(37, 110, 235, 1);
+}
+.heart-img{
+    cursor: pointer;
+}
+.info__price{
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.info__place-time{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #C4C4C4;
+}
+
+.recomend{
+    max-width: 852px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-marg{
+    margin-right: 30px;
+}
+
+.card{
+    margin-bottom: 20px;
+}
+.adsasd{
+    margin-bottom: 12px;
+}
+main{
+    display: flex;
+}
+.services{
+    margin-left:30px;
+    margin-top: 4px;
+}
+.services h2{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.services__section img{
+    margin-bottom: 7px;
+}
+.services__section{
+    margin-bottom: 25px;
+    max-width: 231px;
+}
+.services__name{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.services__sections{
+    font-size: 14px;
+}
+.footer{
+    margin-left:30px;
+    margin-top:37px;
+
+}
+.footer__grey-line{
+    display: block;
+    border-top: 2px rgba(229, 229, 229, 1) solid;
+    width: 261px;
+}
+.footer__grey-text{
+    font-size: 14px;
+    margin-top: 18px;
+    color: rgba(229, 229, 229, 1);
+}
+.a-grey{
+    text-decoration: underline;
+}
+
+.little-text_first{
+    margin-top: 16px;
+}
+.little-text{
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.menu-slider{
+    display: none;
+}
+
+@media screen and (max-width:320px) {
+    .conteiner{
+        width: 270px;
+    }
+    .header-nav_left ul{
+        display: none;
+    }
+    .header-nav_right div{
+        display: none;
+    }
+    .menu-slider{
+        display: block;
+    }
+    .info__name{
+        margin-top: 12px;
+    }
+    .search__text a{
+        display: none;
+    }
+    .search__right{
+        margin-left: 11px;
+        margin-right: 9px;
+    }
+    .recomend h2{
+        font-size: 18px;
+    }
+    .card:nth-child(4),
+    .card:nth-child(5),
+    .card:nth-child(6){
+        display: none;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .services{
+        margin-top: 50px;
+        margin-left: 0;
+    }
+    .footer{
+        margin-top: 37px;
+        margin-left: 0;
+    }
+}
